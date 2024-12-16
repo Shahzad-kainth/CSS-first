@@ -1,0 +1,26 @@
+/*specifity:
+priority id>attribute>class>child==disecendent>Element==Group Element
+/*element selector*/
+h1{
+    background-color: blanchedalmond;
+}
+/*select through class*/
+.first_class{
+    background-color:blueviolet;
+}
+/*select through id*/
+#first_id{
+    background-color:pink;
+}
+/*select through attribute*/
+h1[traggable="true"]{
+    background-color: brown;
+}
+/*desendents*/
+body h1{
+background-color: gray;
+}
+/*child*/
+body>h1{
+    background-color: blueviolet;
+}

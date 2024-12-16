@@ -1,0 +1,23 @@
+div>p{
+    color: blue;
+}
+/*change by rgb  0-255*/
+/* font size through pixels
+pixel size is determind by your devicw
+em,relative to parent font size
+rem,relative to html font size
+% ,relative to parent font size*/
+h1{
+    color:rgb(48, 210, 140);/*rgba a for alpha*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:3rem ;
+}
+
+/*hexadecimal colour change
+#tag use krna,6 chahracter(0-f)*/
+h3{
+    color: #192916ef;
+}
+p{
+    color: hsl(80, 80%, 29%);
+}

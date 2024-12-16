@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+  }
+  body{
+    background-color: rgb(241, 230, 230);
+  }
+  .card{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 10px solid rgb(241,230,230);
+    border-radius: 10px;
+  }
+  .head{
+    background-color: white;
+  }
+  .first{
+    margin-left: 200px;
+  }
+  .dining{
+    margin-left: 200px;
+  }
+  .third{
+    height: 500px;
+    background-color:white;
+    background-color: rgb(239, 237, 237);
+  }
+  .src_image{
+    height: 300px;
+    width: 250px;
+  }
+  .coll_paragraph{
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  .coll_img{
+    margin-left: 10px;
+  }
+  .trending,.places{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    color: white;
+  }
+  .trending{
+    bottom: 50px;
+    font-size: 25px;
+  }
+  .places{
+    bottom: 30px;
+  }
+  .dining_img{
+    height: 70px;
+    width: 70px;
+  }
+  .second{
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+  }
+  .din{
+    position: relative;
+    bottom: 22px;
+    left: 8px;
+    font-size: 20px;
+    color: grey;
+  }
+  .delivery{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .brand{
+    color: red;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .searching{
+    height: 30px;
+    width: 300px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 13px;
+  }
+  button{
+    height: 50px;
+    width: 80px;
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+    margin-right: 50px;
+    background-color: white;
+    border: none;
+  }
+  
+  .card:hover{
+    background-color: white;
+    border-color: white;
+  }
+  .box{
+    display: inline-block;
+  }
+  .image{
+    height: 250px;
+    width: auto;
+    border-radius: 25px;
+  }
+  .img{
+    position: relative;
+  }
+  .restaurant,.food,.location{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .restaurant_name{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .rating{
+    background-color: green;
+    height: 20px;
+    padding: 3px;
+    position: absolute;
+    right: 5px;
+    color: white;
+    border-radius: 8px;
+  }
+  .price,.distance{
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+  }
+  .food,.place{
+    font-size: 15px;
+    color: rgb(88,88,88);
+  }
+  .distance{
+    font-weight: bold;
+  }
+  .off{
+    font-size: 30px;
+    color: white;
+    background-color: rgba(218,43,16,0.6);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+  }

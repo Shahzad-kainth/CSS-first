@@ -1,0 +1,9 @@
+/*Type:
+inline css>internal css==external css->depend on the ordiring
+!imprtant if used with anyone that only background colour of that tag is show only
+*/
+
+h1{
+    background-color: blanchedalmond !important;
+    font-family: "Lato", sans-serif;
+}

@@ -1,0 +1,24 @@
+.body{
+    margin: 0;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+.first{
+    background-color: blue;
+    height: 40vh;
+    width: 10vw;
+    margin-left: 30vw;
+}
+.third{
+    background-color: blue;
+    height: 40vh;
+    width: 10vw;
+    margin-left: 30vw;
+    
+}
+.second{
+    height: 20vh;
+    width: 100vw;
+    background-color: blue;
+}

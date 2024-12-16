@@ -1,0 +1,23 @@
+
+.container{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: red;
+}
+.box4{
+    background-color: yellow;
+}
